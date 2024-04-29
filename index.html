@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>SION.BUY | 당신을 위한 완벽한 생체 완구 </title>
+    <link rel="stylesheet" href="style.css">
+   </head>
+<body>
+  <nav>
+    <div class="nav-content">
+      <div class="logo">
+        <a href="#">SION.BUY</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">홈</a></li>
+        <li><a href="buy.html">구매</a></li>
+        <li><a href="#">문의</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section class="home"></section>
+  <div class="text">
+    <p><h2>당신을 위한 생체 완구 시온</h2>
+    <p>오로지 인간을 위해 유전자 배합을 통해 탄생한 생체완구 시온은 15cm의 컴팩트한 크기를 통해 사육에 최적화하였습니다.</p>
+  </div>
+
+  <script>
+  let nav = document.querySelector("nav");
+    window.onscroll = function() {
+      if(document.documentElement.scrollTop > 20){
+        nav.classList.add("sticky");
+      }else {
+        nav.classList.remove("sticky");
+      }
+    }
+  </script>
+
+</body>
+</html>
