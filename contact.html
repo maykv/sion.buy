@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>SION.BUY | 당신을 위한 완벽한 생체 완구 </title>
+    <link rel="stylesheet" href="style.css">
+   </head>
+<body>
+  <nav>
+    <div class="nav-content">
+      <div class="logo">
+        <a href="#">SION.BUY</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">홈</a></li>
+        <li><a href="buy.html">구매</a></li>
+        <li><a href="#">문의</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section class="home"></section>
+  <div>
+    <a href="mailto:vanillabusinessmay@gmail.com">구매 문의</a>
+  </div>
+
+  <script>
+  let nav = document.querySelector("nav");
+    window.onscroll = function() {
+      if(document.documentElement.scrollTop > 20){
+        nav.classList.add("sticky");
+      }else {
+        nav.classList.remove("sticky");
+      }
+    }
+  </script>
+
+</body>
+</html>
